@@ -1,0 +1,8 @@
+Description:
+    Generate the migration to build the lock table.
+
+Example:
+    ./script/generate acts_as_lockable
+
+    This will create:
+        db/migrate/xxx_create_locks.rb
